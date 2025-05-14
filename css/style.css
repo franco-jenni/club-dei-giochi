@@ -1,0 +1,82 @@
+/* Impostazioni di base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #6a1b9a; /* Viola */
+    margin-top: 20px;
+}
+
+/* Navigazione */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6a1b9a; /* Viola */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #9c27b0; /* Viola chiaro */
+}
+
+/* Tabelle */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #6a1b9a; /* Viola */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Stile per link */
+a {
+    color: #6a1b9a; /* Viola */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9c27b0; /* Viola chiaro */
+}
